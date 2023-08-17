@@ -1,0 +1,23 @@
+{
+    "model":"resnet34",
+    "num_classes":6,
+    "device":"cuda",
+    "pretrained":false,
+    "lr":0.001,
+    "momentum":0.9,
+    "num_epochs":50,
+    "image_size":[224,224],
+
+    "dataset_path":"../FoodImage/",
+    "validation_dataset_path":"../FoodImage/",
+    "train_test_split":0.60,
+    "batch_size":8,
+
+    "metric_thresh":0.9
+
+
+
+
+
+
+}
